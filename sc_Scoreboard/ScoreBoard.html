@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>Scoreboard</title>
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="score-board">
+            <h3>HOME</h3>
+            <div id="home-score" class="score-el">
+            </div>
+            <div class="score-btns">
+                <button class="score-btn" onclick="add1Home()">+1</button>
+                <button class="score-btn" onclick="add2Home()">+2</button>
+                <button class="score-btn" onclick="add3Home()">+3</button>
+            </div>
+        </div>
+
+        <div class="score-board">
+            <h3>GUEST</h3>
+            <div id="guest-score" class="score-el">
+            </div>
+            <div class="score-btns">
+                <button class="score-btn" onclick="add1Guest()">+1</button>
+                <button class="score-btn" onclick="add2Guest()">+2</button>
+                <button class="score-btn" onclick="add3Guest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <button id="newgame-btn" onclick="newGame()">New Game</button>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
